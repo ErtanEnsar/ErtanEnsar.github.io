@@ -437,12 +437,8 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     height: 0;
   }
 
-
-  @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-    .sidebar {
+  @media (pointer:coarse) {
+    .sidebar{
         display: none;
-      }
+    }
 }

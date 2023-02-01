@@ -221,14 +221,16 @@ body{
   }
 
   p{
-    font-size: 1vw;
+    font-size: 26px;
     font-family: 'Montserrat';
     line-height: 1.2;
+    width: 50%;
+    margin: auto;
   }
   .text-container {
     padding: 10px;
     display: flex;
-    width: 50%;
+    width: 70%;
     margin: auto;
     justify-content: center;
   }

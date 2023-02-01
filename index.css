@@ -228,10 +228,10 @@ body{
   }
   .text-container {
     padding: 10px;
-    width: 60%;
+    width: 50%;
     margin: auto;
     justify-content: center;
-    font-size: 26px;
+    font-size: 1vw;
     font-family: 'Montserrat';
   }
 

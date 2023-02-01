@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ertan Köse</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<html>
+<body>
+
+
+    
+<div class="wrapper">
+<div class="main">
+
+<div id="outer">
+<div class="photo">
+  <h1 id="name">Ertan Köse</h1>
+    <img src="Assets/memyselfandi.jpeg" />
+  <div class="glow-wrap">
+    <i class="glow"></i>
+  </div>
+</div>
+ </div>
+
+ 
+
+<h1 class="CenterHeader" id="aboutme">About Me</h1>
+
+
+<div class="text-container">
+
+    <p>Hello There! I am a third year Computer Science student based out of Copenhagen.<br><br>
+        
+    My skillset consists of functional and OOP languages such as F#, C# and C++. But it doesn't stop there!<br><br>
+    
+    I also have experience with Html/Css and Js, I love building websites/applications primarily using MVC frameworks such as ASP.NET MVC and Django. <br><br>
+    As for storing data i primarily work with relational databases and know my way around SQL and ORM.<br><br>
+   Besides these i also have a wide body of experience and a solid grasp of fundamental knowledge that is ever evolving such as UX/UI, algorithms/data structures, mathematics, project management, machine learning, game engines etc.<br><br>
+   Nevertheless i am always up to a challenge and love to learn new skills.
+
+   </p>
+    </div>
+
+
+<h1 class="CenterHeader" id="projects">Some of my projects</h1>
+
+
+<div class="container">
+    <input type="radio" name="slider" id="item-1" checked>
+    <input type="radio" name="slider" id="item-2">
+    <input type="radio" name="slider" id="item-3">
+  <div class="cards">
+    <label class="card" for="item-1" id="song-1">
+        <div id="title">Datascrapper and sentiment analyzer for Reddit</div>
+        <div class="subtitle">
+        <ul>
+            <li>Searched for comments and posts in subreddits that contains specific stock tickers</li>
+            <li>Used a lexicon to rate their sentiment</li>
+            <li>Able to fetch multiple comments and posts at a time to save request</li>
+          </ul>
+        </div>
+    </label>
+    <label class="card" for="item-2" id="song-2">
+        <div id="title">Full Stack Website</div>
+        <div class="subtitle">
+        <ul>
+            <li>Website to display various information collected with my datascraper</li>
+            <li>Used Django as the web framework combined with PostgreSQL</li>
+            <li>Made it responsive and usable across all platforms</li>
+            <li>Automatic deployment from Github to DigitalOcean</li>
+          </ul>
+        </div>
+    </label>
+    <label class="card" for="item-3" id="song-3">
+        <div id="title">Implementation of Strongly Typed Programming Language</div>
+        <div class="subtitle">
+        <ul>
+            <li>Compiled and Interpreted</li>
+            <li>Advanced optimisation techniques used</li>
+            <li>Generates MISP code</li>
+          </ul>
+        </div>
+    </label>
+  </div>
+</div>
+
+
+
+
+<h1 class="CenterHeader" id="contact">Let's Get in Touch</h1>
+
+
+<div class="contact">
+
+    <div class="Left">
+        <a href="/Assets/CVErtan.pdf" download="ErtanCV.pdf">
+            <button type="submit" id="Download">Download CV</button>
+            </a>
+    </div>
+    <div>
+        <a href="https://github.com/ErtanEnsar" target="_blank">
+            <i class="fa fa-github "></i>
+        </a>
+    </div>
+    <div>
+        <a href="https://www.linkedin.com/in/ertan-k%C3%B6se-a74671220/" target="_blank">
+        <i class="fa fa-linkedin" ></i>
+    </a>
+</div>
+
+    <div class="Right">
+    <button onclick="CopyEmail()" id="Email">Copy Email</button>
+    </div> 
+</div>
+
+
+<a id="author">Ertan Köse</a>
+</div>
+
+
+
+<div class="sidebar">
+    <div class="area"></div><nav class="main-menu">
+    
+        <ul>
+            <li>
+                <a href="#aboutme">
+                    <i class="fa fa-user" ></i>
+                    <span class="nav-text">
+                       About Me
+                    </span>
+                </a>
+              
+            </li>
+            <li>
+                <a href="#projects">
+                    <i class="fa fa-cog"></i>
+                    <span class="nav-text">
+                        Portfolio
+                    </span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact">
+                    <i class="fa fa-phone"></i>
+                    <span class="nav-text">
+                        Contact
+                    </span>
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+</div>
+</div>
+
+
+
+        
+
+</body>
+</html>

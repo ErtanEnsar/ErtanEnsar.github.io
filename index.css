@@ -222,7 +222,7 @@ body{
 
   p{
     font-family: 'Montserrat';
-    font-size: 1vw;
+    font-size: 150%;
   }
   .text-container {
     padding: 10px;

@@ -218,6 +218,7 @@ body{
 
   p{
     font-family: 'Montserrat';
+    font-size: 24px;
     width: 50%;
     margin: auto;
   }
@@ -280,7 +281,7 @@ input[type=radio] {
     margin: auto;
     width: 90%;
   position: relative;
-  height: 4cm;
+  height: 3.5cm;
 }
 
 .cards {
@@ -392,8 +393,12 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         display: none;
     }
     .container {
-      height: 6cm;
+      height: 5cm;
     }
-    
+    p{
+        font-family: 'Montserrat';
+        width: 100%;
+        margin: auto;
+      }
 
 }
